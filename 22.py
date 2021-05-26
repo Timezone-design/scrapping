@@ -32,7 +32,7 @@ for i in [116,117,118,119,120,121,122,123,124,125,126,127,130,131,132,133,134,13
 	items = []
 	for j in range(len(item_links)):
 		item = {
-			'link': path + getValue(item_links[j], 'href', '..', ''),
+			'link': item_path + getValue(item_links[j], 'href', '..', ''),
 			'image': getValue(item_images[j], 'src', '../..', '/assets/img'),
 			'image_alt': getValue(item_images[j], 'alt'),
 			'text': getValue(item_links[j])
