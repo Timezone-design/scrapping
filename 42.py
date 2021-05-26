@@ -11,7 +11,7 @@ def getValue(element, attribute = '', str1 = '', str2 = ''):
 	except:
 		return ''
 
-root = "http://localhost/"
+root = "https://www.kts-web.com/"
 path = "tire_wheel/tire/"
 item_path = "shop_menu/set"
 data = []
