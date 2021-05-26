@@ -39,7 +39,7 @@ for i in [10000,10001,10002,10003,10004,10005,10006,10007,10008,10009,10010,1001
 	text2 = getValue(soup.select('div#panel2 p'))
 	
 	row = {
-		'url': item_path + str(i) + ".php",
+		'url': path + str(i) + ".php",
 		'meta_refresh': meta_refresh,
 		'meta_title': meta_title,
 		'meta_description': meta_description,
